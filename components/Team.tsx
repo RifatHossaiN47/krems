@@ -7,7 +7,7 @@ export function Team() {
       name: "AS Kashmary",
       role: "20040**",
       expertise: "Deep learning, NLP, and production ML systems",
-      image: "/kash.png",
+      image: "/kash.jpg",
       linkedin: "https://linkedin.com",
     },
     {
