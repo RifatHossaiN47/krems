@@ -2,6 +2,8 @@
 
 A modern, responsive company website for KREMS Technologies showcasing AI & software engineering services. Built with Next.js 16, TypeScript, and Tailwind CSS.
 
+🌐 **Live Demo**: [https://krems.vercel.app/](https://krems.vercel.app/)
+
 ## 🚀 Features
 
 - **Modern Design System**: Custom design tokens with teal and orange accent colors
