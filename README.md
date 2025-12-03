@@ -1,36 +1,157 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# KREMS Technologies - Official Website
 
-## Getting Started
+A modern, responsive company website for KREMS Technologies showcasing AI & software engineering services. Built with Next.js 16, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## 🚀 Features
+
+- **Modern Design System**: Custom design tokens with teal and orange accent colors
+- **Responsive Layout**: Fully responsive across all devices
+- **Component-Based Architecture**: Modular React components for easy maintenance
+- **Email Integration**: Contact form with EmailJS integration
+- **Smooth Animations**: Interactive UI with smooth transitions and hover effects
+- **SEO Optimized**: Built with Next.js App Router for optimal performance
+
+## 📋 Project Structure
+
+```
+krems-tech/
+├── app/                      # Next.js App Router
+│   ├── globals.css          # Global styles & design tokens
+│   ├── layout.tsx           # Root layout with metadata
+│   └── page.tsx             # Home page component
+├── components/              # React components
+│   ├── Navigation.tsx       # Sticky navigation with mobile menu
+│   ├── Hero.tsx            # Hero section with CTA
+│   ├── ServicesOverview.tsx # Services grid
+│   ├── HowItWorks.tsx      # Process timeline
+│   ├── CaseStudies.tsx     # Project case studies
+│   ├── DeepDiveServices.tsx # Detailed service descriptions
+│   ├── Team.tsx            # Team member profiles
+│   ├── Testimonials.tsx    # Client testimonials
+│   ├── ContactCTA.tsx      # Contact form with EmailJS
+│   ├── Footer.tsx          # Footer with links
+│   ├── figma/              # Utility components
+│   │   └── ImageWithFallBack.tsx
+│   └── smallcomp/          # Reusable UI components
+│       ├── Button.tsx
+│       ├── ServiceCard.tsx
+│       └── TeamCard.tsx
+├── public/                  # Static assets (images)
+└── README.md
+```
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 16](https://nextjs.org/) with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS 4
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Email Service**: [EmailJS](https://www.emailjs.com/)
+- **Fonts**: Geist Sans & Geist Mono (via next/font)
+
+## 📦 Installation
+
+1. Clone the repository:
+
+```bash
+git clone <repository-url>
+cd krems-tech
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Configure EmailJS (optional for contact form):
+   - Sign up at [EmailJS](https://www.emailjs.com/)
+   - Update credentials in `components/ContactCTA.tsx`:
+     - `serviceId`
+     - `templateId`
+     - `publicKey`
+     - `to_email`
+
+## 🚀 Getting Started
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📝 Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm start` - Run production server
+- `npm run lint` - Run ESLint
 
-## Learn More
+## 🎨 Design System
 
-To learn more about Next.js, take a look at the following resources:
+### Color Palette
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Primary**: Navy (#0f1419, #1a2332, #243447)
+- **Accent**: Teal (#00b4a8) & Orange (#ff6b35)
+- **Neutrals**: Gray scale (#f8f9fa to #0d0f12)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Typography
 
-## Deploy on Vercel
+- **Headings**: Geist Sans
+- **Body**: Geist Sans
+- **Code**: Geist Mono
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 Pages & Sections
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Navigation** - Sticky header with smooth scroll navigation
+2. **Hero** - Welcome section with primary CTA
+3. **Services Overview** - Grid of core services
+4. **How It Works** - Step-by-step process
+5. **Case Studies** - Featured project showcases
+6. **Deep Dive Services** - Detailed service descriptions
+7. **Team** - Team member profiles with photos
+8. **Testimonials** - Client reviews and logos
+9. **Contact CTA** - Contact form with EmailJS integration
+10. **Footer** - Company info and links
+
+## 🖼️ Image Assets
+
+Place team photos and other images in the `public/` folder:
+
+- `wa.png` - Hero section image
+- `emmu.jpg`, `Kash.png`, `shwn.png` - Team member photos
+- Other assets as needed
+
+## 🌐 Deployment
+
+### Deploy on Vercel (Recommended)
+
+The easiest way to deploy is using [Vercel](https://vercel.com):
+
+1. Push your code to GitHub
+2. Import your repository on Vercel
+3. Vercel will auto-detect Next.js and deploy
+
+### Environment Variables
+
+If you're using EmailJS, add these to your deployment:
+
+- `NEXT_PUBLIC_EMAILJS_SERVICE_ID`
+- `NEXT_PUBLIC_EMAILJS_TEMPLATE_ID`
+- `NEXT_PUBLIC_EMAILJS_PUBLIC_KEY`
+
+## 📚 Learn More
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs)
+
+## 📧 Contact
+
+For inquiries about KREMS Technologies, visit [rifat8851@gmail.com](mailto:rifat8851@gmail.com)
+
+---
+
+Built with ❤️ by KREMS Technologies - Engineering practical AI & software that scales
