@@ -45,7 +45,7 @@ export function Team() {
       role: "Software Engineer",
       expertise:
         "Frontend & backend development, API design, and web applications",
-      image: "/Shaan.png",
+      image: "/Shaan.jpg",
       linkedin: "https://linkedin.com",
     },
   ];
