@@ -30,14 +30,15 @@ export function Hero() {
               <span className="text-sm">A Team of Experts from Bangladesh</span>
             </div>
 
-            <h1 className="text-white">
-              KREMS Technologies — engineering practical AI & software that
-              scales
-            </h1>
+            <div className="space-y-4">
+              <h1 className="text-5xl lg:text-6xl font-bold text-white leading-tight">
+                KREMS Technologies
+              </h1>
+              <div className="h-1 w-24 bg-gradient-to-r from-[var(--color-teal-400)] to-[var(--color-orange-500)] rounded-full"></div>
+            </div>
 
-            <p className="text-xl text-gray-300">
-              Web and mobile apps, ML pipelines, and agentic AI — built by a
-              focused expert team
+            <p className="text-xl lg:text-2xl text-gray-300">
+              Building intelligent software solutions that drive innovation
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">

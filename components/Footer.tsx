@@ -1,5 +1,6 @@
 import React from "react";
 import { Mail, Phone, MapPin, Linkedin, Twitter, Github } from "lucide-react";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -8,12 +9,13 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Company Info */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-[var(--color-teal-500)] to-[var(--color-orange-500)] rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">K</span>
-              </div>
-              <span className="text-xl font-bold">KREMS Technologies</span>
-            </div>
+            <Image
+              src="/logos.png"
+              alt="KREMS Technologies"
+              width={210}
+              height={68}
+              className="mb-4"
+            />
             <p className="text-gray-400 mb-4">
               Engineering practical AI & software that scales.
             </p>
@@ -164,7 +166,7 @@ export function Footer() {
                   href="mailto:hello@krems.tech"
                   className="text-gray-400 hover:text-[var(--color-teal-400)] transition-colors"
                 >
-                  hello@krems.tech
+                  rifat8851@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
@@ -173,7 +175,7 @@ export function Footer() {
                   href="tel:+8801234567890"
                   className="text-gray-400 hover:text-[var(--color-teal-400)] transition-colors"
                 >
-                  +880 123 456 7890
+                  +880 1720447606
                 </a>
               </li>
             </ul>

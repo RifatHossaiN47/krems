@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "./smallcomp/Button";
+import Image from "next/image";
 
 export function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -13,12 +14,14 @@ export function Navigation() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-[var(--color-teal-500)] to-[var(--color-orange-500)] rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">K</span>
-            </div>
-            <span className="text-xl font-bold text-[var(--color-navy-800)]">
-              KREMS Technologies
-            </span>
+            <Image
+              src="/logos.png"
+              alt="KREMS Technologies"
+              width={200}
+              height={60}
+              className="h-17 w-48"
+              priority
+            />
           </div>
 
           {/* Desktop Navigation */}
