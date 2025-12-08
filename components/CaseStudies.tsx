@@ -61,24 +61,26 @@ export function CaseStudies() {
     },
     // Additional projects (hidden initially)
     {
-      title: "Project Alpha",
-      subtitle: "E-Commerce Platform",
+      title: "Stadium Ticket Management System",
+      subtitle: "Smart Stadium Ticketing Platform",
       description:
-        "Modern e-commerce solution with advanced filtering, payment gateway integration, and vendor management system.",
-      impact: "Multi-vendor • Real-time inventory • SEO optimized",
-      tags: ["Next.js", "PostgreSQL", "Redis", "AWS"],
-      gradient: "from-indigo-600 to-blue-500",
-      icon: "🛒",
-    },
-    {
-      title: "Project Beta",
-      subtitle: "Analytics Dashboard",
-      description:
-        "Real-time analytics platform with interactive data visualization, custom reports, and AI-powered insights.",
-      impact: "Real-time data • Custom reports • AI insights",
-      tags: ["React", "D3.js", "Python", "Apache Kafka"],
-      gradient: "from-violet-600 to-purple-500",
-      icon: "📊",
+        "Full-stack ticket management system with Spring Boot backend, MySQL database, and responsive frontend for seamless stadium booking experience.",
+      impact: "Real-time booking • Seat selection • Payment integration",
+      tags: [
+        "Spring Boot",
+        "Java",
+        "MySQL",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript",
+      ],
+      liveUrl:
+        "https://stadium-ticket-management-system-production.up.railway.app/",
+      githubUrl:
+        "https://github.com/RifatHossaiN47/Stadium-Ticket-Management-System",
+      gradient: "from-blue-600 to-indigo-500",
+      icon: "🏟️",
     },
   ];
 
