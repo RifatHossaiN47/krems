@@ -1,159 +1,103 @@
-# KREMS Technologies - Official Website
+# KREMS Technologies
 
-A modern, responsive company website for KREMS Technologies showcasing AI & software engineering services. Built with Next.js 16, TypeScript, and Tailwind CSS.
+The official website for **KREMS Technologies** — an engineering team specializing in practical AI solutions, Retrieval-Augmented Generation (RAG), and modern full-stack software development.
 
-🌐 **Live Demo**: [https://krems.vercel.app/](https://krems.vercel.app/)
-
-## 🚀 Features
-
-- **Modern Design System**: Custom design tokens with teal and orange accent colors
-- **Responsive Layout**: Fully responsive across all devices
-- **Component-Based Architecture**: Modular React components for easy maintenance
-- **Email Integration**: Contact form with EmailJS integration
-- **Smooth Animations**: Interactive UI with smooth transitions and hover effects
-- **SEO Optimized**: Built with Next.js App Router for optimal performance
-
-## 📋 Project Structure
-
-```
-krems-tech/
-├── app/                      # Next.js App Router
-│   ├── globals.css          # Global styles & design tokens
-│   ├── layout.tsx           # Root layout with metadata
-│   └── page.tsx             # Home page component
-├── components/              # React components
-│   ├── Navigation.tsx       # Sticky navigation with mobile menu
-│   ├── Hero.tsx            # Hero section with CTA
-│   ├── ServicesOverview.tsx # Services grid
-│   ├── HowItWorks.tsx      # Process timeline
-│   ├── CaseStudies.tsx     # Project case studies
-│   ├── DeepDiveServices.tsx # Detailed service descriptions
-│   ├── Team.tsx            # Team member profiles
-│   ├── Testimonials.tsx    # Client testimonials
-│   ├── ContactCTA.tsx      # Contact form with EmailJS
-│   ├── Footer.tsx          # Footer with links
-│   ├── figma/              # Utility components
-│   │   └── ImageWithFallBack.tsx
-│   └── smallcomp/          # Reusable UI components
-│       ├── Button.tsx
-│       ├── ServiceCard.tsx
-│       └── TeamCard.tsx
-├── public/                  # Static assets (images)
-└── README.md
-```
-
-## 🛠️ Tech Stack
-
-- **Framework**: [Next.js 16](https://nextjs.org/) with App Router
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS 4
-- **Icons**: [Lucide React](https://lucide.dev/)
-- **Email Service**: [EmailJS](https://www.emailjs.com/)
-- **Fonts**: Geist Sans & Geist Mono (via next/font)
-
-## 📦 Installation
-
-1. Clone the repository:
-
-```bash
-git clone <repository-url>
-cd krems-tech
-```
-
-2. Install dependencies:
-
-```bash
-npm install
-```
-
-3. Configure EmailJS (optional for contact form):
-   - Sign up at [EmailJS](https://www.emailjs.com/)
-   - Update credentials in `components/ContactCTA.tsx`:
-     - `serviceId`
-     - `templateId`
-     - `publicKey`
-     - `to_email`
-
-## 🚀 Getting Started
-
-Run the development server:
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) to view the website.
-
-## 📝 Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm start` - Run production server
-- `npm run lint` - Run ESLint
-
-## 🎨 Design System
-
-### Color Palette
-
-- **Primary**: Navy (#0f1419, #1a2332, #243447)
-- **Accent**: Teal (#00b4a8) & Orange (#ff6b35)
-- **Neutrals**: Gray scale (#f8f9fa to #0d0f12)
-
-### Typography
-
-- **Headings**: Geist Sans
-- **Body**: Geist Sans
-- **Code**: Geist Mono
-
-## 📄 Pages & Sections
-
-1. **Navigation** - Sticky header with smooth scroll navigation
-2. **Hero** - Welcome section with primary CTA
-3. **Services Overview** - Grid of core services
-4. **How It Works** - Step-by-step process
-5. **Case Studies** - Featured project showcases
-6. **Deep Dive Services** - Detailed service descriptions
-7. **Team** - Team member profiles with photos
-8. **Testimonials** - Client reviews and logos
-9. **Contact CTA** - Contact form with EmailJS integration
-10. **Footer** - Company info and links
-
-## 🖼️ Image Assets
-
-Place team photos and other images in the `public/` folder:
-
-- `wa.png` - Hero section image
-- `emmu.jpg`, `Kash.png`, `shwn.png` - Team member photos
-- Other assets as needed
-
-## 🌐 Deployment
-
-### Deploy on Vercel (Recommended)
-
-The easiest way to deploy is using [Vercel](https://vercel.com):
-
-1. Push your code to GitHub
-2. Import your repository on Vercel
-3. Vercel will auto-detect Next.js and deploy
-
-### Environment Variables
-
-If you're using EmailJS, add these to your deployment:
-
-- `NEXT_PUBLIC_EMAILJS_SERVICE_ID`
-- `NEXT_PUBLIC_EMAILJS_TEMPLATE_ID`
-- `NEXT_PUBLIC_EMAILJS_PUBLIC_KEY`
-
-## 📚 Learn More
-
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [TypeScript Documentation](https://www.typescriptlang.org/docs)
-
-## 📧 Contact
-
-For inquiries about KREMS Technologies, visit [rifat8851@gmail.com](mailto:rifat8851@gmail.com)
+🔗 **Live Website:** [https://krems.vercel.app](https://krems.vercel.app)
 
 ---
 
-Built with ❤️ by KREMS Technologies - Engineering practical AI & software that scales
+## Overview
+
+This repository contains the source code for the KREMS Technologies agency platform. It serves as the digital front for our services, highlighting active case studies, team expertise, technical capabilities, and a direct client inquiry flow.
+
+Designed with clean typography, responsive layouts, and a component-driven architecture built for speed and maintainability.
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| **Framework** | [Next.js 16](https://nextjs.org/) (App Router, Turbopack) |
+| **Core** | [React 19](https://react.dev/) & [TypeScript](https://www.typescriptlang.org/) |
+| **Styling** | [Tailwind CSS v4](https://tailwindcss.com/) + Custom CSS Design Tokens |
+| **Icons** | [Lucide React](https://lucide.dev/) |
+| **Client Inquiry** | [EmailJS](https://www.emailjs.com/) |
+| **Typography** | Geist Sans & Geist Mono (`next/font`) |
+| **Deployment** | [Vercel](https://vercel.com/) |
+
+## Key Highlights
+
+- **Fast & Responsive**: Fully responsive UI engineered with Next.js App Router and Tailwind CSS v4 for clean cross-device rendering.
+- **Real Project Case Studies**: Direct showcases of production systems including **HealthPort** (AI healthcare), **RChatbot** (RAG assistant), **TLDR** (AI content summarizer), and **CUET FoodExpress**.
+- **Service Deep Dives**: Clear breakdowns covering Full-Stack Development, ML & Data Engineering, and Agentic AI workflows.
+- **Direct Lead Intake**: Client inquiry and quote request form connected seamlessly via EmailJS.
+- **Custom Brand Identity**: Cohesive design system built around dark navy backgrounds, sharp teal accents, and warm highlights.
+
+## Project Structure
+
+```
+krems-tech/
+├── app/
+│   ├── globals.css          # Design tokens, CSS variables & typography
+│   ├── layout.tsx           # Root layout, font definitions & SEO metadata
+│   └── page.tsx             # Main landing page assembling core sections
+├── components/
+│   ├── Navigation.tsx       # Header with mobile menu and service links
+│   ├── Hero.tsx             # Value proposition, highlights & preview mockup
+│   ├── ServicesOverview.tsx # High-level summary of engineering services
+│   ├── HowItWorks.tsx       # 3-step delivery workflow (Discovery, Build, Ship)
+│   ├── CaseStudies.tsx      # Featured projects with live links and tech tags
+│   ├── DeepDiveServices.tsx # Accordion with granular specs and deliverables
+│   ├── Team.tsx             # Core engineering team profiles
+│   ├── ContactCTA.tsx       # Interactive project inquiry form
+│   ├── Footer.tsx           # Navigation links and social profiles
+│   └── smallcomp/           # Reusable UI primitives (Button, ServiceCard, TeamCard)
+└── public/                  # Brand assets, team photography & icons
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18.17+ or 20+
+- npm, pnpm, or yarn
+
+### Quick Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/RifatHossaiN47/krems.git
+   cd krems-tech
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+Open [http://localhost:3000](http://localhost:3000) to view the site locally.
+
+### Available Scripts
+
+- `npm run dev` — Starts the local dev server with Turbopack.
+- `npm run build` — Compiles and optimizes the application for production.
+- `npm start` — Runs the compiled production build locally.
+- `npm run lint` — Runs ESLint to verify code quality and formatting.
+
+## Engineering Team
+
+- **AS Kashmary** — AI & Cloud Engineer
+- **Md Rifat Hossen** — AI Engineer & Full-Stack Developer
+- **Emon Ahmed** — AI Engineer
+- **Abdullah Al Mahmud** — Data Engineer
+- **Tangil Hossain Shawon** — Software Engineer
+- **Sha Newaz Mahmud** — Software Engineer
+
+## Inquiries & Contact
+
+- **Live Site**: [krems.vercel.app](https://krems.vercel.app)
+- **Direct Contact**: [rifat8851@gmail.com](mailto:rifat8851@gmail.com)
